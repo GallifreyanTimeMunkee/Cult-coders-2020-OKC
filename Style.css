@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    }
+
+#topHeader {
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    padding: 25px 30px;
+    margin: 40px 0;
+    transition: 1s;
+    }
+
+/*Class selector*/
+.myDiv1{
+    height: 50px;
+    width: 50px;
+    background-color: #0000ff;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.myDiv1:hover{
+    background: #0000ff;
+    color: #050801;
+    box-shadow: 0 0 5px #0000ff,
+                0 0 25px #0000ff,
+                0 0 50px #0000ff,
+                0 0 200px #0000ff;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.myDiv2{
+    height: 50px;
+    width: 50px;
+    background-color:aqua;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.myDiv2:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}    
+.myDiv3{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.myDiv3:hover{
+    background: #ffff00;
+    color: #050801;
+    box-shadow: 0 0 5px #ffff00,
+                0 0 25px #ffff00,
+                0 0 50px #ffff00,
+                0 0 200px #ffff00;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+} 
+
+.myDiv4{
+    height: 50px;
+    width: 50px;
+    background-color: #ff0000;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.myDiv4:hover{
+    background: #ff0000;
+    color: #050801;
+    box-shadow: 0 0 5px #ff0000,
+                0 0 25px #ff0000,
+                0 0 50px #ff0000,
+                0 0 200px #ff0000;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}    
+
