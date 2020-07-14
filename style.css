@@ -1,0 +1,29 @@
+/* Universal selector*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Type slector*/
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    text-decoration-color: teal;
+    font-weight: bold;
+    }
+
+#topHeader {
+    color: blue;
+}
+
+.topPara {
+    color: yellow;
+    font-size: 80%;
+}
